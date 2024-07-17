@@ -34,7 +34,7 @@ async function connectToDatabase() {
     console.error('Error connecting to Azure SQL Database:', err);
   }
 }
-
+//test cmmt
 connectToDatabase();
 
 // Routes
