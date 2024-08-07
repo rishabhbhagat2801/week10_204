@@ -84,7 +84,7 @@ app.post('/add-expense', async (req, res) => {
         res.status(500).send('Error adding expense: ' + err.message);
     }
 });
-
+//hello
 // Endpoint to add a random expense
 app.get('/add-random-expense', async (req, res) => {
     try {
